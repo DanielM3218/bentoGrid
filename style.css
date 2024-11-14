@@ -3,6 +3,10 @@
     border: red solid 1px;
 }
 
+body{
+    padding: 10%;
+}
+
 .main-square {
 
     display: grid;
@@ -11,6 +15,7 @@
     border-radius: 10px; 
     height: 500px;
     gap: 5px;
+
 
 }
 
