@@ -4,92 +4,72 @@
 }
 
 .main-square {
-    margin: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-radius: 10px;
 
+    display: grid;
+    grid-template-columns: 12;
+    grid-template-rows: 10;
+    border-radius: 10px; 
+    height: 500px;
+    gap: 5px;
+
+}
+
+#id{
+    border-radius: 10px;
+    
 }
 
 .topleft-square {
-    width: 10%;
-    height: 30%;
-    margin-left: 0%;
-    margin-right: 2.5%;
-    margin-top: 0%;
-    margin-bottom: 2.5%;
+    grid-area: 1/1/5/4;
+    background-color: hsl(31, 66%, 93%);
     border-radius: 10px;
 }
 
+
 .bottomleft-square {
-    width: 10%;
-    height: 30%;
-    margin-left: 0%;
-    margin-right: 2.5%;
-    margin-top: 2.5%;
-    margin-bottom: 0%;
+    grid-area: 5/1/10/4;
+    background-color: hsl(39, 100%, 71%);
     border-radius: 10px;
 }
 
 .topcenter-square {
-    width: 50%;
-    height: 20%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 0%;
-    margin-bottom: 2.5%;
+    grid-area: 1/4/4/10; 
+    background-color: hsl(256, 67%, 59%);
     border-radius: 10px;
+
 }
 
 .centeleft-square {
-    width: 10%;
-    height: 10%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    grid-area: 4/4/7/7;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
 }
 
 .centeright-square {
-    width: 10%;
-    height: 10%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    grid-area: 4/7/7/10;
+    background-color: hsl(39, 100%, 71%);
     border-radius: 10px;
+
 }
 
 .downcenter-square {
-    width: 10%;
-    height: 10%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    grid-area: 7/4/10/7;
+    background-color:hsl(0, 0%, 100%);
     border-radius: 10px;
 }
 
 .rightup-square{
-    width: 10%;
-    height: 40%;
-    margin-left: 2.5%;
-    margin-right: 0%;
-    margin-top: 0%;
-    margin-bottom: 2.5%;
+    grid-area: 1/10/7/13;
+    background-color: hsl(254, 88%, 90%);
     border-radius: 10px;
 }
 
 .rightbottom-square{
-    width: 50%;
-    height: 20%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 0%;
-    margin-bottom: 2.5%;
+    grid-area: 7/7/10/13;
+    background-color: hsl(256, 67%, 59%);
     border-radius: 10px;
 }
+
+
+
 
